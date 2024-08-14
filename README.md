@@ -51,7 +51,7 @@ Encode source_file.php using the Current 64-bit Encoder for PHP 8.2:
 ```bash
 ./ioncube_encoder.sh -C -x86-64 -82 source_file.php -o target_file.php
 ```
-In the target_file.php section, you can specify the name of the file to be decoded and where it will be saved.
+In the target_file.php section, you can specify the name of the file to be decoded and where it will be saved. <br>
 Like; /var/www/html/decoded-php-app.php
 
 If I were to do it based on adding a PHP file to my repo, it would look like this:
@@ -70,9 +70,9 @@ I will also put that decoded code in my repo. I want you to see that encoded fil
 `ioncube_loader_lin_8.2.so` <br>
 
 actually it is so easy to apply it:
--  edit **/etc/php.ini**
+-  edit **/etc/php.ini** <br>
 Edit the file located at `/etc/php.ini` using nano or vim.
-- at the top of the php.ini file add:
+- at the top of the php.ini file add: <br>
 zend_extension = /path/your/ioncubeLoader/ioncube/ioncube_loader_lin_8.1.so
 for instance:
 ```
