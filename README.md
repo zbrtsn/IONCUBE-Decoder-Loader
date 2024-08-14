@@ -1,9 +1,10 @@
 # IONCUBE-Decoder-Loader
-This software tool can help you run files that have been encoded using the ionCube PHP Encoder. A PHP extension called the ionCube Loader handles the reading and execution of encoded files at run time.
+This software tool can help you run files that have been encoded using the ionCube PHP Encoder.<br>
+A PHP extension called the ionCube Loader handles the reading and execution of encoded files at run time.
 
 ## Download
 
-You can visit [this link](https://www.ioncube.com/encoder_eval_download.php "this link") to obtain the free trial version of the Ioncube Decoder.
+You can visit [this link](https://www.ioncube.com/encoder_eval_download.php "this link") to obtain the free trial version of the Ioncube Decoder. <br>
 Then you need to get [Ioncube Loader](https://www.ioncube.com/loaders.php) to encode your decoded file.
 
 ------------
