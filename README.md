@@ -2,6 +2,7 @@
 This software tool can help you run files that have been encoded using the ionCube PHP Encoder.<br>
 A PHP extension called the ionCube Loader handles the reading and execution of encoded files at run time.
 
+------------
 ## Download
 
 You can visit [this link](https://www.ioncube.com/encoder_eval_download.php "this link") to obtain the free trial version of the Ioncube Decoder. <br>
@@ -57,3 +58,39 @@ If I were to do it based on adding a PHP file to my repo, it would look like thi
 ```bash
 ./ioncube_encoder.sh -C -x86-64 -81 /var/www/html/form.php -o /var/www/html/decodedform.php
 ```
+I will also put that decoded code in my repo. I want you to see that encoded file. <br>
+**I used 8.1 PHP version cause in 8.2 version, ioncube loader didn't work for me.** <br>
+**I tried it with version 7.4, and it worked. It might also work with minor versions below 8.2.** <br>
+
+------------
+## Encode Your Code When You Run it
+
+- When you extract your loader folder, you'll see a lot of version of it like; <br>
+`ioncube_loader_lin_8.3.so` <br>
+`ioncube_loader_lin_8.2.so` <br>
+
+actually it is so easy to apply it:
+-  edit **/etc/php.ini**
+Edit the file located at `/etc/php.ini` using nano or vim.
+- at the top of the php.ini file add:
+zend_extension = /path/your/ioncubeLoader/ioncube/ioncube_loader_lin_8.1.so
+for instance:
+```
+[PHP]
+zend_extension = /path/your/ioncubeLoader/ioncube/ioncube_loader_lin_8.1.so
+...
+```
+- restart the PHP environment (i.e. Apache, php-fpm, etc.)
+I use apache so;
+```bash
+sudo systemctl restart httpd
+sudo systemctl restart php-fpm
+```
+- Check a phpinfo page and the Loader should show up in the Zend Engine box.
+```PHP
+<?php
+phpinfo();
+?>
+```
+That's all.
+All you need to do now just go to your web server with your encoded php file and see it's the same as was before.
