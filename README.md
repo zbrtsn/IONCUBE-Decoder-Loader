@@ -22,21 +22,21 @@ To summarize:
 ```
 in here, 
 - Encoder Version (optional, you don't have to use it):
--C : Use Current Encoder (v13.0) - Default
--L : Use Legacy Encoder (v12.0)
--O : Use Obsolete Encoder (v11.0)
+-C : Use Current Encoder (v13.0) - Default <br>
+-L : Use Legacy Encoder (v12.0) <br>
+-O : Use Obsolete Encoder (v11.0) <br>
 
-- PHP Languages:
--4 : Encode file as PHP 4
--5 : Encode file as PHP 5
--53 : Encode file as PHP 5.3
--54 : Encode file as PHP 5.4
--55 : Encode file as PHP 5.5
--56 : Encode file as PHP 5.6
--71 : Encode file as PHP 7.1
--72 : Encode file as PHP 7.2
--74 : Encode file as PHP 7.4
--81 : Encode file as PHP 8.1
+- PHP Languages: 
+-4 : Encode file as PHP 4 <br>
+-5 : Encode file as PHP 5 <br>
+-53 : Encode file as PHP 5.3 <br>
+-54 : Encode file as PHP 5.4 <br>
+-55 : Encode file as PHP 5.5 <br>
+-56 : Encode file as PHP 5.6 <br>
+-71 : Encode file as PHP 7.1 <br>
+-72 : Encode file as PHP 7.2 <br>
+-74 : Encode file as PHP 7.4 <br>
+-81 : Encode file as PHP 8.1 <br>
 -82 : Encode file as PHP 8.2
 
 - Architecture (optional):
