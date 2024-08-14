@@ -21,7 +21,7 @@ To summarize:
 ./ioncube_encoder.sh [your encoder version] [architecture] [your php version] [the app will encode] -o [the encoded php file]
 ```
 in here, 
-- Encoder Version (optional, you don't have to use it):
+- Encoder Version (optional, you don't have to use it): <br>
 -C : Use Current Encoder (v13.0) - Default <br>
 -L : Use Legacy Encoder (v12.0) <br>
 -O : Use Obsolete Encoder (v11.0) <br>
