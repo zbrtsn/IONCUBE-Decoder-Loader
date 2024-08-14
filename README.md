@@ -26,7 +26,7 @@ in here,
 -L : Use Legacy Encoder (v12.0) <br>
 -O : Use Obsolete Encoder (v11.0) <br>
 
-- PHP Languages: 
+- PHP Languages: <br>
 -4 : Encode file as PHP 4 <br>
 -5 : Encode file as PHP 5 <br>
 -53 : Encode file as PHP 5.3 <br>
