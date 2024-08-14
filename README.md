@@ -41,7 +41,7 @@ in here,
 -81 : Encode file as PHP 8.1 <br>
 -82 : Encode file as PHP 8.2
 
-- Architecture (optional):
+- Architecture (optional): <br>
 -x86 | -x86-64 : Run either the 32-bit or 64-bit Encoder
 
 - Usage examples:
