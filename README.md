@@ -92,5 +92,5 @@ sudo systemctl restart php-fpm
 phpinfo();
 ?>
 ```
-That's all.
+That's all. <br>
 All you need to do now just go to your web server with your encoded php file and see it's the same as was before.
